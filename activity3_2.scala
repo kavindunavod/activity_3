@@ -1,6 +1,13 @@
 import scala.io.StdIn
 object activity3_2 {
 
+  def func1(Strings: List[String]): Unit = {
+
+    val filter = Strings.filter(_.length > 5)
+    println("string which greater than length 5 are : " + filter)
+
+  }
+
   def main(args: Array[String]): Unit = {
 
     println("how many string do you want to give :")
@@ -15,8 +22,8 @@ object activity3_2 {
 
       }
     val list1: List[String]= str_arr.toList
-    val filter=list1.filter(_.length>5)
-    println("string which greater than length 5 are : " + filter)
+    func1(list1)
+
   }
 
 }
