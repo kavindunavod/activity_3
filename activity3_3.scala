@@ -12,7 +12,7 @@ object activity3_3 {
     println("enter the first number: ")
     val result1=StdIn.readLine().toInt
 
-    println("enter the first number: ")
+    println("enter the second number: ")
     val result2=StdIn.readLine().toInt
 
     val avg= average1(result1, result2)
