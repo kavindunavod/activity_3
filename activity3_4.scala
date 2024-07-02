@@ -14,8 +14,9 @@ object activity3_4 {
 
 
     val str_arr = new Array[Int](num)
+    val i:Int = 0
     for (i <- 0 until num) {
-      println("enter the numbers " + i + 1 + " ")
+      println("enter the numbers " + (i + 1) + " ")
       str_arr(i) = StdIn.readLine().toInt
 
     }
